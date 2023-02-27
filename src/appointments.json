@@ -1,0 +1,117 @@
+{
+    "Physicians": [
+        {
+            "Doctor":  {"FirstName": "Anthony", "LastName": "Fauci", "Title": "Dr."},
+            "Doctor_ID": "Fauci123",
+            "Email": "fauci@notablehealth.com",
+            "Appointments": [
+                {
+                    "Patient": "Jimi Hendrix",
+                    "Issue": "Patient keeps coughing. Cannot taste or smell anything.",
+                    "Kind": "New Patient",
+                    "Patient_ID": "Fauci_Hendrix_1",
+                    "Time": "2:30 PM"
+                },
+                {
+                    "Patient": "Eric Clapton",
+                    "Issue": "Patient's sore thumb is now the size of an egg.",
+                    "Kind": "Follow-up",
+                    "Patient_ID": "Fauci_Clapton_2",
+                    "Time": "10:00 AM"
+                },
+                {
+                    "Patient": "John Petrucci",
+                    "Issue": "Patient is suffering from severe headache.",
+                    "Kind": "New Patient",
+                    "Patient_ID": "Fauci_Petrucci_3",
+                    "Time": "8:15 AM"
+                },
+                {
+                    "Patient": "Steve Vai",
+                    "Issue": "Patient still doesn't have any motivation to write music.",
+                    "Kind": "Follow-up",
+                    "Patient_ID": "Fauci_Vai_4",
+                    "Time": "9:30 AM"
+                }
+            ]
+        },
+        {
+            "Doctor":  {"FirstName": "Mateus", "LastName": "Asato", "Title": "Dr."},
+            "Doctor_ID": "Asato123",
+            "Email": "asato@notablehealth.com",
+            "Appointments": [
+                {
+                    "Patient": "Eric Johnson",
+                    "Issue": "Pink Eye. Patient has slight swelling on right eyelid",
+                    "Kind": "New Patient",
+                    "Patient_ID": "Asato_Johnson_1",
+                    "Time": "8:00 AM"
+
+                },
+                {
+                    "Patient": "Dereck Trucks",
+                    "Issue": "Patient appears to be feeling better.",
+                    "Kind": "Follow-up",
+                    "Patient_ID": "Fauci_Clapton_2",
+                    "Time": "8:00 AM"
+                },
+                {
+                    "Patient": "John Petrucci",
+                    "Issue": "Patient is suffering from severe headache.",
+                    "Kind": "New Patient",
+                    "Patient_ID": "Fauci_Petrucci_3",
+                    "Time": "8:00 AM"
+                },
+                {
+                    "Patient": "Steve Vai",
+                    "Issue": "Patient still doesn't have any motivation to write music.",
+                    "Kind": "Follow-up",
+                    "Patient_ID": "Fauci_Vai_4",
+                    "Time": "8:00 AM"
+                }
+            ]
+        },
+        {
+            "Doctor":  {"FirstName": "Julius", "LastName": "Hibbert", "Title": "Dr."},
+            "Doctor_ID": "Hibbert123",
+            "Email": "hibbert@notablehealth.com",
+            "Appointments": [
+                {
+                    "Patient": "Michael Jordan",
+                    "Issue": "Pink Eye. Patient has slight swelling on right eyelid",
+                    "Kind": "New Patient",
+                    "Patient_ID": "Hibbert_Jordan_1",
+                    "Time": "9:30 AM"
+
+                },
+                {
+                    "Patient": "Magic Johnson",
+                    "Issue": "Patient appears to be feeling better.",
+                    "Kind": "Follow-up",
+                    "Patient_ID": "Hibbert_Johnson_2",
+                    "Time": "11:30 AM"
+                }
+        
+            ]
+        },
+        {
+            "Doctor":  {"FirstName": "Algemop", "LastName": "Krieger", "Title": "Dr."},
+            "Doctor_ID": "Krieger123",
+            "Email": "krieger@notablehealth.com",
+            "Appointments": [
+                {
+                    "Patient": "Dwayne Johnson",
+                    "Issue": "Patient is reporting sore upper back.",
+                    "Kind": "New Patient",
+                    "Patient_ID": "Krieger_Jordan_1",
+                    "Time": "9:30 AM"
+
+                }
+            
+        
+            ]
+        }
+     
+    ]
+ 
+ }

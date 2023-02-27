@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.dashboard_container {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 700px) {
+  .dashboard_container {
+     flex-direction: column;
+  }
+}

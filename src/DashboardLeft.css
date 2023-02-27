@@ -1,0 +1,53 @@
+.dash_left_container {
+    background-color: #f4f4f7;
+    height: 100vh;
+    width: 20vw;
+ }
+ .image_container {
+    margin-top: 30px
+ }
+ .Notable-logo {
+    max-width: 100%;
+  height: auto;
+ }
+.column_title{
+    margin-top:24px;
+    font-weight: bold;
+} 
+.physician_container {
+    text-align: left;
+}
+
+.physician_container div {
+    cursor: pointer;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    padding: 0 20px;
+}
+.physician_container div.active {
+    background-color: #5b1eff;
+    color: white;
+}
+button {
+    background-color: #5b1eff;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 0px;
+    padding: 5px 15px;
+    margin-top: 50px;
+ }
+ button:hover {
+    background-color:#4413ca;
+    cursor: pointer;
+ }
+
+ @media screen and (max-width: 700px) {
+    .dash_left_container {
+        height: 500px;
+        width: 100vw;
+     }
+  }

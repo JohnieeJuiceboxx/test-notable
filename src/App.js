@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./Notable_logo.png";
+import "./App.css";
+import { useState } from "react";
+import DashboardContainer from "./DashboardContainer";
+import "./Splash.css";
 
 function App() {
+  const [loggedIn, setLoggedIn] = useState(true);
+
+  /**
+   * Note: I am looking for a Front-End dev position so the Backend part was restricted to dummy data
+   */
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {!loggedIn ? (
+        <div className="splash fade-in">
+          <div>
+            <img src={logo} className="Notable-logo" alt="logo" />
+          </div>
+          <div>
+            <button onClick={() => setLoggedIn(true)}>Login</button>
+          </div>
+        </div>
+      ) : (
+        <DashboardContainer setLoggedIn={setLoggedIn}></DashboardContainer>
+      )}
     </div>
   );
 }

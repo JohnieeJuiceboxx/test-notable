@@ -1,0 +1,25 @@
+{
+    "Collection": "Physicians",
+    "Physicians":[
+        {
+            "Doctor":  {"FirstName": "Anthony", "LastName": "Fauci", "Title": "Dr."},
+            "Doctor_ID": "Fauci123",
+             "Company": "Notable Health"
+        },
+        {
+            "Doctor":  {"FirstName": "Julius", "LastName": "Hibbert", "Title": "Dr."},
+            "Doctor_ID": "Hibbert123",
+             "Company": "Notable Health"
+        },
+        {
+            "Doctor":  {"FirstName": "Algemop", "LastName": "Krieger", "Title": "Dr."},
+            "Doctor_ID": "Krieger123",
+             "Company": "Notable Health"
+        },
+        {
+            "Doctor":  {"FirstName": "Mateus", "LastName": "Asato", "Title": "Dr."},
+            "Doctor_ID": "Asato123",
+             "Company": "Notable Health"
+        }
+    ]
+}
